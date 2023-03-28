@@ -1,12 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
 </head>
 <body>
-    <h1>ciao</h1>
+    <img src="https://cdn.discordapp.com/attachments/1085228097298763786/1090261445293396038/EPICODE-pitto-color.png" alt="logo epicode" width="150" height="150">
+    <div>
+        <p>
+            Epicode - Il blog dei developers
+        </p>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Articoli</a>
+            </li>
+            <li>
+                <a href="#">Job</a>
+            </li>
+        </ul>
+        <hr>
+    </div>
+
+    <div>
+        <h2>
+            Come creare un template per i post
+        </h2>
+        <p>
+            di Mario Rossi - pubblicato il 25-10-2020 <br><br>
+            La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <b>parti comuni</b> da applicare a tutte le pagine
+            <br><br>
+            Le varie aree saranno quindi suddivise in:
+            <ul>
+                <li>
+                    Contenuti di intestazione tag <code>&lt;header&gt;</code>
+                </li>
+                <li>
+                    Contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo principale)
+                </li>
+                <li>
+                    Contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code>
+                </li>
+            </ul>
+
+        </p>
+    </div>
+    <div>
+        <h2>
+            Formattazione del codice
+        </h2>
+        <p>
+            Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <b>selezionare con i CSS</b>. Perciò i passi saranno:
+            <br>
+
+            <ol>
+                <li>
+                    Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato
+                </li>
+                <li>
+                    Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso
+                </li>
+                <li>
+                    Applicare gli stili CSS
+                </li>
+            </ol>
+
+        </p>
+        <p>
+            L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.
+        </p>
+    </div>
+
+    <div>
+        <table>
+            <caption>Diffusione dei CSS</caption>
+            <thead>
+                <tr>
+                    <th>Anno</th>
+                    <th>% di utilizzo</th>
+                    <th>Supporto browsers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2000</td>
+                    <td>20%</td>
+                    <td>17%</td>
+                </tr>
+                <tr>
+                    <td>2002</td>
+                    <td>35%</td>
+                    <td>22%</td>
+                </tr>
+                <tr>
+                    <td>
+                        2004
+                    </td>
+                    <td>
+                        45%
+                    </td>
+                    <td>
+                        42%
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2008
+                    </td>
+                    <td>
+                        80%
+                    </td>
+                    <td>
+                        51%
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2012
+                    </td>
+                    <td>
+                        100%
+                    </td>
+                    <td>
+                        76%
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+    </div>
+
+    <div>
+        <p>
+            Un test di validazione potrà essere fatto tramite il <a href="https://jigsaw.w3.org/css-validator/" target="_blank">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
+        </p>
+    </div>
+
+    <div>
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/kjFC2GAw4Lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div>
+        <h2>
+            Novita'
+        </h2>
+        <p>
+            Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:
+        </p>
+    </div>
+    <div>
+        <fieldset>
+            <form method="POST" action="#">
+            <input type="text" id="email" name="email" placeholder="email">
+            <button type="submit" id="iscriviti">iscriviti!</button>
+        </form>
+    </fieldset>
+    </div>
+    <div>
+        <h2>
+            Articoli correlati
+        </h2>
+    </div>
+    <div>
+        <a href="#">Validare il codice HTML</a>
+        <p>Categoria: develop</p>
+        <p>Data: 18-9-2020</p>
+        <a href="#">Correggere la sintassi</a>
+        <p>Categoria: develop</p>
+        <p>Data: 16-9-2020</p>
+        <a href="#">Meno Kb nella pagina</a>
+        <p>Categoria: ottimizzazione</p>
+        <p>Data: 30-9-2020</p>
+        <hr>
+    </div>
+    <div>
+        <footer>
+            <p>
+                Blog Epicode ©2021
+            </p>
+            <address>
+                <p>
+                    Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
+                    <a href="info@epicode.school">info@epicode.school</a>
+                </p>
+            </address>
+          </footer>
+    </div>
+
 </body>
 </html>
