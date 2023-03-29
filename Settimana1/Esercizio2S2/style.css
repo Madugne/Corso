@@ -23,6 +23,7 @@ body {
     margin-right: 15%;
 }
 p {
+    text-align: center;
     margin-left: 15%;
     margin-right: 15%;
     font-size: larger
@@ -33,6 +34,8 @@ p {
     margin-right: auto;
   }
 #Sally {
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
 }
 h3 {
