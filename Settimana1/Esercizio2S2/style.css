@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: rgb(100,5,138);
+    background: linear-gradient(90deg, rgba(100,5,138,1) 0%, rgba(232,119,255,1) 52%, rgba(255,0,117,1) 100%);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+
+#title {
+       font-size: 20px;
+       text-align: center;
+       background-color: rgb(255, 255, 197);
+       padding: 18px;
+  }
+
+#title2 {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: larger
+}
+#cibo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#Sally {
+    text-align: center;
+}
+h3 {
+    padding-left: 20px;
+    border-left: 1px solid yellow;
+    font-size: larger;
+    margin-left: 15%;
+    color: orange;
+}
+#linkVideo {
+    font-size: larger;
+    color: blue;
+}
+#linkVideo2 {
+    color: blue;
+}
+h1 {
+    margin-left: 15%;
+    font-size: x-large;
+}
+hr {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+ul {
+    margin-left: 15%;
+}
+ol {
+    margin-left: 15%;
+}
+li {
+    font-size: large;
+}
+h4 {
+    font-weight: normal;
+    margin-right: 18%;
+}
+form { 
+    margin: 0 auto; 
+    width:250px;
+}
