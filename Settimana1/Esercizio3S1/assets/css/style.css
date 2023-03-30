@@ -1,0 +1,147 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+code {
+    border-style: solid;
+    border-color: grey;
+    border-radius: 7px;
+    background-color: #f3f3f3;
+}
+
+#mario {
+    color: grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* HEADER */
+
+#testoheader {
+    padding: 3% 3% 3% 3%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0,160,198,1), rgba(3,109,134,1));
+    box-shadow: 2px 3px 2px 2px #666;
+}
+
+#listaheader li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#listaheader a {
+    color: white;
+    text-decoration: none;
+}
+
+#img {
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+/* MAIN */
+
+#body {
+    padding: 3% 3% 3% 3%;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    background-color: white;
+    box-shadow: 2px 3px 2px 2px #666;
+    margin-bottom: 5%;
+}
+
+th {
+    width: 5%;
+    padding-right: 3%;
+    padding: 3%;
+    background: #3f6bca
+}
+tr:nth-child(even) {background: #f3f3f3}
+tr:nth-child(odd) {background: white}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+.testoevidenziato {color: blueviolet;}
+#video {
+    display: block;
+    margin: 0 auto;
+    height: 75%;
+    width: 75%;
+    border-radius: 25px; 
+    margin-bottom: 5%;
+}
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f6bca;
+    height: 2px;
+}
+
+#novita {
+    padding: 3% 3% 3% 3%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: left;
+    background-color: #f3f3f3;
+}
+
+.articolo {
+    padding: 3% 3% 3% 3%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: left;
+    background-color: #f3f3f3;
+    border-style: solid;
+    border-color: grey;
+}
+
+.link2 {color: aqua;}
+
+.data {
+    text-align: right;
+}
+
+/* FORM */
+
+#email {
+    border: 0px;
+    padding: 1%;
+    border-bottom: dashed;
+}
+#bottone {
+    padding: 1%;
+    border: 0px;
+    color: white;
+    background-color: #3f6bca;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: rgba(3,109,134,1);
+    padding: 3% 3% 3% 3%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 3px 2px 2px #666;
+}
