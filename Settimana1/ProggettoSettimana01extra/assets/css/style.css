@@ -1,0 +1,115 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.65em;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.2rem;
+}
+
+h1 h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#background-logo {
+    background-color: black;
+}
+#logo {
+    padding: 5% 5% 5% 5%;
+    width: 30%;
+    height: 30%;
+}
+
+#container1 {
+    padding: 5% 5% 5% 5%;
+    background-image: url(./../images/banner.jpg);
+    background-size: cover;
+}
+
+#titolo1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #25a2c3;
+}
+#bottone {
+    padding: 10px 30px;
+    background-color: #f04c2f;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: none;
+}
+#bottone:hover {
+    opacity: 0.8;
+}
+.titolo2 {
+    color: #25a2c3;
+}
+#laptop {
+    border-radius: 100%;
+    width: 50%;
+}
+#arancione {
+    background-color: #e22d0e;
+    color: white;
+    padding: 7%;
+}
+#titolo-arancione {
+    font-family: 'Montserrat', sans-serif;
+}
+#mario {
+    font-family: 'Open Sans', sans-serif;
+}
+#ceo {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 0em;
+    font-size: small;
+}
+.container3 {
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid #dee1e3;
+    border-radius: 1%;
+    margin-bottom: -8%;
+}
+.immagini3 {
+   width: 100%;
+}
+#info-footer {
+    color: white;
+    background-color: #25a2c3;
+    font-family: 'Open Sans', sans-serif;
+}
+#titolo-footer {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25%;
+    margin-bottom: -3%;
+    padding: 7%;
+    background-color: #25a2c3;
+    color: white;
+}
+.contatti {
+    color: white;
+    font-size: medium;
+    line-height: 0;
+}
+hr {
+    width: 60%;
+    color: white;
+}
+#copyright {
+    font-size: small;
+    padding-bottom: 15%;
+}
+#pixabay {
+    color: white;
+}
