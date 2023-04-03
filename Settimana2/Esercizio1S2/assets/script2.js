@@ -1,2 +1,4 @@
-document.getElementById('output').innerHTML = 'output scritto da Javascript';
-document.getElementById('output2').innerHTML = 'Pantera scritto da Javascript';
+var testo1 = 'output scritto da Javascript';
+document.getElementById('output').innerHTML = testo1;
+var testo2 = 'pantera scritto da Javascript';
+document.getElementById('output2').innerHTML = testo2;
