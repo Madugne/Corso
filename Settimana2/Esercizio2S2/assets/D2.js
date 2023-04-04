@@ -59,3 +59,4 @@ console.log(sottrazione);
 const nome1 = 'john';
 const nome2 = 'John';
 console.log ((nome1 === nome2) ? 'sono uguali': 'sono diversi');
+console.log ((nome1 === nome2.toLowerCase()) ? 'sono uguali' : 'sono diversi');
