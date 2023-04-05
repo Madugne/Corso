@@ -108,6 +108,9 @@ if(n7 > n8){
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
+const valore = '5'
+if (typeof valore === 'number') {console.log ('è un numero')}
+else {console.log ('non è un numero')};
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
