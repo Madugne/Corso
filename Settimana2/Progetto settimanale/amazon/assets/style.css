@@ -65,8 +65,9 @@ li {
 }
 .gift {
     display: inline-block;
+    object-fit: cover;
     width: 23em;
-    height: 25em;
+    height: 30em;
     margin-top: 0.5%;
     margin-left: 1%;
     margin-right: 1%;
