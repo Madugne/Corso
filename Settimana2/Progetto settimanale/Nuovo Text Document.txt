@@ -1,9 +1,0 @@
-    <img src="assets/bg-image.png" alt="backgroundimg">
-    <img src="assets/bg-img.png" alt="backgroundimg2">
-    <img src="assets/img_1.jpg" alt="immagine1">
-    <img src="assets/img_10.png" alt="immagine10">
-    <img src="assets/img_2.jpg" alt="immagine2">
-    <img src="assets/img_3.jpg" alt="immagine3">
-    <img src="assets/img_4.jpg" alt="immagine4">
-    <img src="assets/img_9.png" alt="immagine9">
- 
