@@ -8,6 +8,7 @@ function catena(stringa1, stringa2) {
   return catena1 + catena2
 }
 
+
 console.log(catena('cane', 'gatto'));
 
 /* ESERCIZIO 2
