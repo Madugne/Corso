@@ -253,7 +253,7 @@ console.log(onlyLetters());
 console.log(`ESERCIZIO_06`);
 
 function isThisAnEmail(email) {
-  var re = /\S+@\S+\.\S+/;
+  let re = /\S+@\S+\.\S+/;
   return re.test(email);
 }
 console.log(isThisAnEmail('testEmail@mail.com'));
@@ -501,8 +501,8 @@ console.log(`ESERCIZIO_23`);
 
 coloreLink("red");
 function coloreLink(colore) {
-  var link = document.getElementsByTagName("a");
-  for (var i = 0; i < link.length; i++) {
+  let link = document.getElementsByTagName("a");
+  for (let i = 0; i < link.length; i++) {
     if (link[i].href) {
       link[i].style.backgroundColor = colore;
     }
