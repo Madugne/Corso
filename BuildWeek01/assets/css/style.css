@@ -1,104 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit&display=swap');
-
-
-/*PAGINA 1*/
-html,
-body {
-    box-sizing: border-box;
-    padding: 0;
+html, body {
     margin: 0;
-    /*font-family da vedere*/
-    font-size: 16px;
-    color: white;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-
-
-
+    font-size: 16px;
+    /*line-height: 1.2em;*/
 }
 
 body {
-    background-image: url('../img/bg.jpg');
-    background-repeat: no-repeat;
+    background-image: url(../img/bg.jpg);
     background-size: cover;
-
+    background-repeat: no-repeat;
+    background-position: left;
+    color: white;
 }
 
 header {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 3%;
-    margin-bottom: 8%;
+    width: 85%;
+    margin: 3% auto;
 }
 
 img {
-    width: 15%;
+    width: 140px;
 }
 
-#content {
-    width: 80%;
+main {
+    width: 85%;
     margin: 0 auto;
-
-}
-
-.grassetto {
-    font-weight: bold;
 }
 
 
-#titleWelcomePage {
+
+/* - - - - welcomePage - - - - */
+
+#welcomePageTitle {
+    width: 30%;
+}
+
+#welcomePageTitle h1 {
+    font-family: 'Outfit', sans-serif;
     font-size: 60px;
     line-height: 0.8em;
-    font-weight: 30;
-    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
 }
 
-h2 {
+#welcomePageTitle h1 span {
+    font-weight: 200;
+}
+
+#welcomePageParagraph h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    margin-bottom: 0.2em;
     color: #C2128D;
-    margin-top: 0;
-    margin-bottom: 0.3em;
-    font-family: 'Outfit', sans-serif;
-    font-size: 2em;
-
-
 }
 
-#pAfterInstructions {
+#welcomePageParagraph p {
     margin-top: 0;
+    width: 45%;
     margin-bottom: 3em;
-
 }
 
-ul {
+#welcomePageList ul {
     margin-bottom: 5em;
-    line-height: 1.5em;
 }
-
-input {
-    -webkit-appearance: none;
-    height: 20px;
-    width: 20px;
-    border: 3px solid white;
-    margin: 0;
-    margin-right: 10px;
-    position: relative;
-    top: 4px;
-
-}
-
 
 label {
-    margin-right: 10em;
+    margin-right: 12em;
 }
 
-
-
-
 .button {
-    padding: 1em 3em;
-    font-size: 1.3em;
+    padding: 0.9em 3em;
+    font-size: 1.1em;
     background-color: transparent;
     color: white;
     border: 2px solid white;
+    font-weight: bolder;
 }
 
 .button:hover {
@@ -106,73 +83,177 @@ label {
     transition: 0.7s;
     outline-color: transparent;
     outline-style: solid;
-    box-shadow: 0 0 5px 5px #01f9f9be;
+    box-shadow: 0 0 5px 5px #01f9f981;
     color: black;
     border: 1px solid #00FFFF;
-
 }
 
-/*PAGINA 2*/
 
-#titleQuestionPage {
-    margin-bottom: 5%;
-    font-weight: bolder;
+/* - - - - questionPage - - - - */
+
+
+#questionPageHeader {
+    width: 85%;
+    margin: 3% auto 10% auto;
 }
 
-#containerQuestionPage {
+#questionPageContainer {
     text-align: center;
 }
 
-#questions10 {
-    color: #C2128D;
+#questionPageTitle {
+    width: 30%;
+    margin:0 auto;
 }
 
-.pulsanti {
+#questionPageTitle h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+    line-height: 0.8em;
+    font-weight: 800;
+    line-height: 1em;
+    margin-bottom: 1.5em;
+}
+
+#questionPageTitle h1 span {
+    font-weight: 200;
+}
+
+#questionPageAnswers {
+    margin-bottom: 4em;
+}
+
+.answerButton {
     width: 30%;
     padding: 2%;
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.091);
     color: white;
-    box-shadow: 1px -1px 0 0 white;
-    margin: 1%;
+    box-shadow: 0px -2px 2px 0px white;
+    margin: 1% 2% 1% 2%;
     font-weight: bolder;
 }
 
-.pulsanti:hover {
+.answerButton:hover {
     background-color: #C2128D;
 }
 
-.risposte {
-    margin-bottom: 5%;
+#questionPageCounter h1 {
+    font-size: 15px;
+    letter-spacing: 2px;
 }
 
-/* PAGINA03 */
+#questionPageCounter span {
+    color: #C2128D;
+}
 
-.titleResults {
+
+/* - - - - resultsPage - - - - */
+
+
+#resultsPageContainer {
     text-align: center;
 }
 
-.titleResults h1 {
-    margin-bottom: 0;
+#resultsPageTitle {
+    width: 50%;
+    margin:0 auto;
 }
 
-.titleResults p {
-    margin-top: 1%;
-    text-align: center;
+#resultsPageTitle h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+    line-height: 0.8em;
+    font-weight: 800;
+    line-height: 1em;
+    margin-bottom: 0.1em;
+}
+
+#resultsPageTitle p {
+    margin-top: 0;
     font-size: 1.2em;
 }
 
-.centerButton {
+#results {
+    margin-bottom: 2%;
+}
+
+.resultsItem {
+    width: 30%;
+    height: 300px;
+    background-color: black;
+    display: inline-block;
+     margin: 2% 1% 2% 1%
+}
+
+#rateUs button {
+    padding: 0.9em 3em;
+    font-size: 1.1em;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-weight: bolder;
+}
+
+
+/* - - - - feedbackPage - - - - */
+
+#feedbackPageContainer {
     text-align: center;
 }
 
-#divStelline {
-    text-align: center;
+#feedbackPageTitle {
+    width: 50%;
+    margin:0 auto;
 }
 
-.stelline {
-    margin: 0.5%;
-    margin-bottom: 4%;
+#feedbackPageTitle h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+    line-height: 0.8em;
+    font-weight: 800;
+    line-height: 1em;
+    margin-bottom: 0.1em;
 }
 
-#form {}
+#feedback {
+    width: 45%;
+    margin: 0 auto;
+}
+
+#feedback p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+#feedback div {
+    margin-bottom: 5em;
+}
+
+#feedback input {
+    width: 90%;
+    margin-bottom: 0.5em;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1em;
+}
+
+hr {
+    border-color: #C2128D;
+    margin-bottom: 3em;
+    margin-top: 0;
+}
+
+#moreInfo button {
+    padding: 0.9em 3em;
+    font-size: 1.1em;
+    font-weight: bolder;
+    background-color: #00FFFF;
+    transition: 0.7s;
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 5px 5px #01f9f981;
+    color: black;
+    border: 1px solid #00FFFF;
+}
