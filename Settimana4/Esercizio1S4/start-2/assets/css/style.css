@@ -321,7 +321,9 @@ footer a {
 
 @media screen and (min-width: 768px) {
     table {
-        margin: 5%;
+        margin: 0 auto;
         width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
