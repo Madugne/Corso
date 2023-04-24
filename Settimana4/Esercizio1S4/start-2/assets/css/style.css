@@ -24,55 +24,6 @@ hr {
 
 /* HEADER */
 
-@media screen and (min-width: 1200px) {
-
-    header,
-    main,
-    footer {
-        margin: 0 auto;
-        width: 1200px;
-    }
-
-    li {
-        display: inline;
-    }
-
-    header {
-        display: flex;
-        align-items: center;
-        padding: 1.5rem;
-    }
-
-    header div {
-        text-align: left;
-        width: 70%;
-        display: flex;
-        align-items: center;
-    }
-
-    header div img {
-        height: 4.5rem;
-        width: 30%;
-        margin: 0;
-    }
-
-    header div p {
-
-        margin: 0;
-    }
-
-    header nav {
-        width: 30%;
-    }
-
-    table {
-        margin-bottom: 2em;
-        margin-top: 2em;
-        margin: auto;
-        width: 80%;
-    }
-}
-
 header {
     background: rgb(0, 160, 198);
     background: linear-gradient(180deg, rgba(0, 160, 198, 1) 0%, rgba(3, 109, 134, 1) 68%);
@@ -184,19 +135,6 @@ iframe {
 
 /* TABELLE */
 
-@media screen and (min-width: 576px) {
-    table {
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    table {
-        margin: 0 auto;
-        width: 80%;
-    }
-}
-
 table {
     margin-bottom: 2em;
 }
@@ -247,26 +185,6 @@ button {
 
 /* ELEMENTI NELL' ASIDE */
 
-@media screen and (min-width: 1200px) {
-    ul {
-        display: inline;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    aside div {
-        display: inline-block;
-        width: 33%;
-    }
-
-    iframe,
-    section {
-        display: inline-block;
-        width: 48%;
-        margin: 0;
-    }
-}
-
 aside h2 {
     text-align: center;
     color: #333;
@@ -303,4 +221,92 @@ footer {
 
 footer a {
     color: fuchsia;
+}
+
+/*HEADER*/
+
+@media screen and (min-width: 1200px) {
+
+    header,
+    main,
+    footer {
+        margin: 0 auto;
+        width: 1200px;
+    }
+
+    li {
+        display: inline;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    header div {
+        text-align: left;
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+    header div img {
+        height: 4.5rem;
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    header div p {
+        margin: 0;
+        margin-left: 41%;
+    }
+
+    header nav {
+        width: 30%;
+    }
+
+    table {
+        margin-bottom: 2em;
+        margin-top: 2em;
+        margin: auto;
+        width: 80%;
+    }
+}
+
+/*ASIDE*/
+
+@media screen and (min-width: 1200px) {
+    ul {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    aside div {
+        display: inline-block;
+        width: 33%;
+    }
+
+    iframe,
+    section {
+        display: inline-block;
+        width: 48%;
+        margin: 0;
+    }
+}
+
+/*TABBELLE*/
+
+@media screen and (min-width: 576px) {
+    table {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    table {
+        margin: 0 auto;
+        width: 80%;
+    }
 }
