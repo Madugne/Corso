@@ -1,0 +1,74 @@
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+#page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100px;
+    padding: 50px;
+    box-shadow: 5px 5px 4px #888888;
+    transition: all 300ms linear;
+}
+
+#card1 {
+    background-color: rgb(255, 247, 159);
+    transform: rotate(-5deg) translate(30px, 30px);
+    z-index: 1;
+}
+
+#card2 {
+    background-color: rgb(167, 255, 159);
+    transform: rotate(7deg) translate(30px, 50px);
+    z-index: 2;
+}
+
+#card3 {
+    background-color: rgb(228, 159, 255);
+    transform: rotate(-6deg) translate(30px, 50px);
+    z-index: 3;
+}
+
+#card4 {
+    background-color: rgb(186, 255, 159);
+    transform: rotate(8deg) translate(30px, 50px);
+    z-index: 4;
+}
+
+#card5 {
+    background-color: rgb(255, 247, 159);
+    transform: rotate(-8deg) translate(30px, 50px);
+    z-index: 5;
+}
+
+#card6 {
+    background-color: rgb(204, 159, 255);
+    transform: rotate(-9deg) translate(30px, 50px);
+    z-index: 6;
+}
+
+#card7 {
+    background-color: rgb(255, 247, 159);
+    transform: rotate(-4deg) translate(30px, 50px);
+    z-index: 7;
+}
+
+#card8 {
+    background-color: rgb(183, 255, 159);
+    transform: rotate(5deg) translate(30px, 50px);
+    z-index: 8;
+}
+
+#page div:hover {
+    z-index: 10;
+    transform: scale(1.3) rotate(0deg);
+}
