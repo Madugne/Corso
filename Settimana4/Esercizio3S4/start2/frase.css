@@ -8,3 +8,10 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+#testoAlternato {
+    margin: 3%;
+    padding: 50px;
+    background-color: beige;
+    border: 2px solid black;
+    width: 40%;
+}
