@@ -18,7 +18,7 @@
           <li><a href="">Membership</a></li>
           <li><a href="">Write</a></li>
           <li><a href="">Sign In</a></li>
-          <li><a id="getStarted" href="">Get started</a></li>
+          <li><button id="getStarted" href="">Get started</button></li>
         </ul>
       </nav>
     </header>
@@ -9619,6 +9619,22 @@
         let random = Math.floor(Math.random() * M.length);
         M[random].classList.toggle("opacity");
       }, 50);
+    </script>
+
+    <script>
+      const div = document.getElementById("parent");
+      const header = document.querySelector("nav");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY >= div.offsetTop + div.offsetHeight) {
+          header.classList.add("white-nav");
+          document.querySelector("#getStarted").style.backgroundColor =
+            "#28a745";
+        } else {
+          header.classList.remove("white-nav");
+          document.querySelector("#getStarted").style.backgroundColor =
+            "#1a8917";
+        }
+      });
     </script>
   </body>
 </html>

@@ -7,16 +7,29 @@ nav img {
   display: flex;
 }
 
+/* sticky nav */
+
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-around;
   gap: 5%;
   align-items: center;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   width: 100%;
   background-color: rgb(255, 192, 23);
   border-bottom: 1px solid black;
+  transition: 0.6s;
+  z-index: 10000;
+}
+
+.white-nav {
+  background-color: white;
+  color: black;
+  border-bottom: solid black 1px;
 }
 
 nav ul {
@@ -45,18 +58,25 @@ nav a:visited {
 }
 
 #getStarted {
-  padding: 8px;
+  font-size: 10px;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
   border: 1px solid black;
   display: flex;
   border-radius: 50px;
   background-color: black;
   color: white;
+  transition: 0.6s;
 }
+
+/* fine sticky nav */
 
 #parent {
   display: flex;
   background-color: rgb(255, 192, 23);
   border-bottom: 1px solid black;
+  margin-top: 5%;
   padding-bottom: 5%;
   position: relative;
   justify-content: space-around;
