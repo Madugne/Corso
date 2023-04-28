@@ -308,3 +308,8 @@ hr {
 .collegamenti:link {
   text-decoration: none;
 }
+
+.opacity {
+  opacity: 0;
+  transition: 0.5s;
+}
