@@ -38,7 +38,7 @@
           </div>
 
           <div>
-            <button>Start reading</button>
+            <button id="startReading">Start reading</button>
           </div>
         </div>
 
@@ -9622,7 +9622,7 @@
     </script>
 
     <script>
-      const div = document.getElementById("parent");
+      const div = document.getElementById("startReading");
       const header = document.querySelector("nav");
       window.addEventListener("scroll", () => {
         if (window.scrollY >= div.offsetTop + div.offsetHeight) {
