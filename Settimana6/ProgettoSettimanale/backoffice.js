@@ -67,7 +67,7 @@ if (productId) {
     })
 } else { }
 
-// qua termina il recupero dei dati...che non funziona 😭
+// qua termina il recupero dei dati...che non funziona... e' la terza volta che mi riguardo la lezione del prof stefano ma non capisco l'errore sto impazzendo 😭
 
 const productForm = document.getElementById('product-form')
 productForm.addEventListener('submit', function (e) {
