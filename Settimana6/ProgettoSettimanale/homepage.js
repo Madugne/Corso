@@ -35,7 +35,7 @@ const getProdotti = function () {
           <a href="./backoffice.html?productId=
           ${prodotto._id}" 
           class="btn btn-primary">Modifica</a>
-          <a href="./details.html?productId=" class="btn btn-secondary" onclick="mostraDettagli('${prodotto._id}')">Dettagli</a>
+          <a href="#" class="btn btn-secondary" onclick="salvaIdProdotto('${prodotto._id}', event)">Dettagli</a>
         </div>
       </div>
     </div>
@@ -47,6 +47,13 @@ const getProdotti = function () {
         .catch((error) => {
             console.log(`mi do fuoco non ho capito un cazzo vado a tiltare in ranked su lol AAAAAAAAAAAAAAAAA `, error)
         })
+}
+
+function salvaIdProdotto(prodottoId, event) {
+    event.preventDefault();
+    localStorage.setItem('prodottoId', prodottoId);
+    console.log(prodottoId);
+    window.location.href = "./details.html";
 }
 
 window.onload = () => {

@@ -11,6 +11,7 @@ let productId = contentBarraIndirizzo.get(`productId`)
 let url = "https://striveschool-api.herokuapp.com/api/product/"
 console.log(`IDPRODOTTO`, productId)
 
+
 if (productId) {
     document.getElementsByTagName('h2')[0].innerText = 'Backoffice - Modifica prodotto'
     document.getElementById('save-button').innerText = 'Modifica prodotto'
@@ -105,3 +106,9 @@ productForm.addEventListener('submit', function (e) {
             console.log(err)
         })
 })
+
+function salvaIdProdotto(prodottoId) {
+    localStorage.setItem('prodottoId', prodottoId);
+    console.log(salvaIdProdotto);
+}
+salvaIdProdotto();
