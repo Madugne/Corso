@@ -37,6 +37,9 @@ if (productId) {
             .catch((err) => {
                 console.log(err)
             })
+
+        //non funziona il recupero dei dati 😢
+
         fetch("https://striveschool-api.herokuapp.com/api/product/" + productId.trim(), {
             headers: {
                 "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDVlMGNiOTg4Zjc0MDAwMTQyODc0ZTMiLCJpYXQiOjE2ODM4ODUyNDIsImV4cCI6MTY4NTA5NDg0Mn0.s6AzfJyUJlN94i_VCnp9bW8_l9N5-9DbouNLsCEZl-U",
@@ -63,6 +66,8 @@ if (productId) {
             })
     })
 } else { }
+
+// qua termina il recupero dei dati...che non funziona 😭
 
 const productForm = document.getElementById('product-form')
 productForm.addEventListener('submit', function (e) {
@@ -109,6 +114,5 @@ productForm.addEventListener('submit', function (e) {
 
 function salvaIdProdotto(prodottoId) {
     localStorage.setItem('prodottoId', prodottoId);
-    console.log(salvaIdProdotto);
 }
 salvaIdProdotto();
