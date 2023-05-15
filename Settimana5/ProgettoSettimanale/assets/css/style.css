@@ -1,5 +1,5 @@
 .bg-purple {
-  background-color: #7550FE;
+  background-color: #7550fe;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 .bg-giallino {
-  background-color: #FFEEDA;
+  background-color: #ffeeda;
 }
 
 p {
@@ -15,7 +15,7 @@ p {
 }
 
 .text-purple {
-  color: #7550FE;
+  color: #7550fe;
 }
 
 .text-xs {
@@ -90,4 +90,4 @@ p {
   .footer div {
     width: 30%;
   }
-}/*# sourceMappingURL=myapp.css.map */
+} /*# sourceMappingURL=myapp.css.map */
